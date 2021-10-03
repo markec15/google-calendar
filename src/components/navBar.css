@@ -1,0 +1,47 @@
+NavLink{
+    border:none ;
+}
+ul li a{
+    text-decoration: none;;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: #FF4937;
+}
+.is-active{
+    color: #FF4937;
+}
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px 0px 10px;
+}
+.time-range {
+    list-style-type:none;
+    display: flex;
+}
+.time-range li{
+    /*margin: 10px;*/
+    padding: 0px 15px 0px 0px;
+    border: none;
+}
+.time-range li:hover{
+    color:#FF4937;
+}
+.time-range button{
+  border: none;
+  background-color: white;
+}
+.add{
+    margin-top: 18px;
+}
+img{
+    height:50px
+}
+@media only screen and (max-width: 650px) {
+    img{
+        display:none;
+    }
+}
