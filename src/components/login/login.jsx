@@ -7,7 +7,7 @@ function App() {
   const history = useHistory();
   var gapi = window.gapi;
   var CLIENT_ID =
-    "248630370114-l1s223trgd26cikhotopcq1ltgeu32ac.apps.googleusercontent.com";
+    "";
   var DISCOVERY_DOCS = [
     "https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest",
   ];
